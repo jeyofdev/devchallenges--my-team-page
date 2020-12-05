@@ -1,81 +1,58 @@
-# Webpack boilerplate 2021
+<!-- Please update value in the {}  -->
 
-My boilerplate with Webpack based setup that allow build web apps and sites much faster.
+<h1 align="center">My team page</h1>
 
+<div align="center">
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+</div>
 
-## Tools
+<div align="center">
+  <h3>
+    <a href="https://jeyofdev.github.io/devchallenges--my-team-page/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://github.com/jeyofdev/devchallenges--my-team-page">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-Check that [`Nodejs`](https://nodejs.org/en/download/) is installed :
-```sh
-$ node -v
-```
+<!-- TABLE OF CONTENTS -->
 
-Check that [`Yarn`](https://yarnpkg.com/en/docs/install) is installed :
-```sh
-$ yarn -v
-```
+## Table of Contents
 
+- [Overview](#overview)
+  - [Built With](#built-with)
+- [Features](#features)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
-## Initialize a project
+<!-- OVERVIEW -->
 
-Clone the depot and install all the dependencies :
-```sh
-$ yarn install
-```
+## Overview
 
+![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
 
-## Usage
+Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-### Dev mode :
-You can view the dev server at localhost:3000.
-```sh
-$ yarn start
-```
+- Where can I see your demo?
+- What was your experience?
+- What have you learned/improved?
+- Your wisdom? :)
 
-### Production mode :
-```sh
-$ yarn build
-```
-
+### Built Without Framework
 
 ## Features
 
-- [webpack](https://webpack.js.org/)
-- [Babel](https://babeljs.io/)
-- [Sass](https://sass-lang.com/)
-- [PostCSS](https://postcss.org/)
-- [StyleLint](https://stylelint.io/)
-- [EsLint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
+<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U) was to build an application to complete the given user stories.
 
+## Contact
 
-## Dependencies
-
-### webpack
-
-- [`webpack`](https://github.com/webpack/webpack) - Module and asset bundler.
-- [`webpack-cli`](https://github.com/webpack/webpack-cli) - Command line interface for webpack
-- [`webpack-dev-server`](https://github.com/webpack/webpack-dev-server) - Development server for webpack
-- [`webpack-merge`](https://github.com/survivejs/webpack-merge) - Simplify configuration
-
-### Babel
-
-- [`@babel/core`](https://www.npmjs.com/package/@babel/core) - Transpile ES6+
-- [`@babel/plugin-proposal-class-properties`](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties) - Use properties directly on a class
-- [`@babel/preset-env`](https://babeljs.io/docs/en/babel-preset-env) - Smart defaults for Babel
-
-### Loaders
-
-- [`style-loader`](https://webpack.js.org/loaders/style-loader/) - Inject Css into the DOM
-- [`sass-loader`](https://webpack.js.org/loaders/sass-loader/) - compile Scss to Css
-- [`css-loader`](https://webpack.js.org/loaders/css-loader/) - Resolve css imports
-- [`postcss-loader`](https://webpack.js.org/loaders/postcss-loader/) - Process Css with PostCSS
-- [`babel-loader`](https://webpack.js.org/loaders/babel-loader/) - Transpile files with Babel and webpack
-
-### Plugins
-
-- [`clean-webpack-plugin`](https://github.com/johnagan/clean-webpack-plugin) - Remove/clean build folders
-- [`mini-css-extract-plugin`](https://github.com/webpack-contrib/mini-css-extract-plugin) - Extract CSS into separate files
-- [`html-webpack-plugin`](https://github.com/jantimon/html-webpack-plugin) - Generate Html files from template
-- [`image-minimizer-webpack-plugin`](https://github.com/webpack-contrib/image-minimizer-webpack-plugin) - Optimize the images.
+- GitHub [jeyofdev](https://github.com/jeyofdev)
