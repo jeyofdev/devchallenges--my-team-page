@@ -34,10 +34,15 @@ $containerWidths: map-merge(
 
 // colors
 //
-$white: #fafafa !default;
-$black: #000 !default;
+$light: #fafafa !default;
+$dark: #000 !default;
+$gray: #a9a9a9 !default;
 
-$body-bg: $white !default;
+$body-bg: $light !default;
+
+$content-color: $dark;
+$headings-color: $dark;
+$footer: $gray !default;
 
 // fonts
 $font-family-text: 'Poppins', sans-serif !default;
