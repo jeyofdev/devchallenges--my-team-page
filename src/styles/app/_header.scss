@@ -1,13 +1,12 @@
 header {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 0;
+  @include make-css-grid(1fr);
+
   grid-template-areas: 'page-title';
   margin-top: rem(71);
 
   @include media-queries-up('md') {
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: rem(20);
+    @include make-css-grid(repeat(2, 1fr), rem(20), rem(20));
+
     grid-template-areas: 'page-title page-title';
     margin-top: rem(110);
   }
