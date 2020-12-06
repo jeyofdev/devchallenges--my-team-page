@@ -31,3 +31,14 @@ $containerWidths: map-merge(
   ),
   $containerWidths
 );
+
+// colors
+//
+$white: #fafafa !default;
+$black: #000 !default;
+
+$body-bg: $white !default;
+
+// fonts
+$font-family-text: 'Poppins', sans-serif !default;
+$font-family-title: 'PT Serif', serif !default;

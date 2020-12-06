@@ -1,6 +1,9 @@
+// variables
+//
+@import 'app/variables';
+
 // core
 //
-@import 'core/variables';
 @import 'core/functions';
 @import 'core/mixins';
 @import 'core/layout';
@@ -8,4 +11,5 @@
 
 // app
 //
-@import 'app/custom';
+@import 'app/_default';
+@import 'app/_header';
