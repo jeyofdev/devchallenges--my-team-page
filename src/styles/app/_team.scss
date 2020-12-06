@@ -1,0 +1,84 @@
+.team {
+  @include make-css-grid(1fr, rem(20), rem(20));
+
+  grid-template-areas: 'card';
+  margin-top: rem(69);
+
+  @include media-queries-up('sm') {
+    @include make-css-grid(repeat(2, 1fr));
+
+    grid-template-areas: 'card card';
+  }
+
+  @include media-queries-up('md') {
+    @include make-css-grid(repeat(3, 1fr), rem(20), rem(35));
+
+    grid-template-areas: 'card card card';
+  }
+}
+
+/* ========================
+    CARD
+======================== */
+.team .card {
+  position: relative;
+  overflow: hidden;
+  padding-right: rem(20);
+  margin-left: rem(7);
+
+  @include media-queries-between('sm', 'md') {
+    &:nth-child(2n + 2) {
+      margin-top: rem(65);
+    }
+  }
+
+  @include media-queries-up('sm') {
+    &:nth-child(3n + 2) {
+      margin-top: rem(115);
+    }
+  }
+}
+
+/* ========================
+    CARD CONTENT
+======================== */
+.team .card img {
+  width: 100%;
+  margin-bottom: rem(10);
+}
+
+.team .card * {
+  &.card-name {
+    @extend %content;
+
+    font-weight: 600;
+    font-size: rem(14);
+    line-height: rem(21);
+    text-transform: capitalize;
+
+    @include media-queries-up('md') {
+      font-size: rem(18);
+      line-height: rem(27);
+    }
+  }
+
+  &.card-job {
+    @extend %h1;
+
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: left top;
+    top: 0;
+    left: 100%;
+    font-weight: normal;
+    font-size: rem(10);
+    line-height: rem(13);
+    text-transform: uppercase;
+    white-space: nowrap;
+
+    @include media-queries-up('md') {
+      font-size: rem(12);
+      line-height: rem(16);
+    }
+  }
+}
