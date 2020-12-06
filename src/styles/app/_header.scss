@@ -1,0 +1,58 @@
+header {
+  @include make-css-grid(1fr);
+
+  grid-template-areas: 'page-title';
+  margin-top: rem(71);
+
+  @include media-queries-up('md') {
+    @include make-css-grid(repeat(2, 1fr), rem(20), rem(20));
+
+    grid-template-areas: 'page-title page-title';
+    margin-top: rem(110);
+  }
+}
+
+/* ========================
+    TITLE
+======================== */
+header h1 {
+  @extend %h1;
+
+  font-size: rem(36);
+  line-height: rem(48);
+  letter-spacing: -0.045em;
+}
+
+/* ========================
+    ABOUT
+======================== */
+header .about {
+  margin-top: rem(38);
+
+  @include media-queries-up('md') {
+    margin-top: 0;
+  }
+
+  h2 {
+    @extend %content;
+
+    font-weight: 600;
+    font-size: rem(18);
+    line-height: rem(27);
+    text-transform: uppercase;
+    margin-bottom: rem(10);
+  }
+
+  p {
+    @extend %content;
+
+    font-weight: 100;
+    font-size: rem(14);
+    line-height: rem(21);
+
+    @include media-queries-up('md') {
+      font-size: rem(18);
+      line-height: rem(27);
+    }
+  }
+}
