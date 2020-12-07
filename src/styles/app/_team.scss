@@ -28,13 +28,13 @@
 
   @include media-queries-between('sm', 'md') {
     &:nth-child(2n + 2) {
-      margin-top: rem(65);
+      margin-top: 30%;
     }
   }
 
-  @include media-queries-up('sm') {
+  @include media-queries-up('md') {
     &:nth-child(3n + 2) {
-      margin-top: rem(115);
+      margin-top: 30%;
     }
   }
 }
