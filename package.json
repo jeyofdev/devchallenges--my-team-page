@@ -1,8 +1,8 @@
 {
-  "name": "webpack-boilerplate-2021",
+  "name": "devchallenges--my-team-page",
   "version": "1.0",
   "private": true,
-  "description": "my webpack configuration",
+  "description": "My participation in the 'My team page' challenge of the website https://devchallenges.io/",
   "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.js",
@@ -10,18 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeyofdev/webpack-boilerplate-2021.git"
+    "url": "git+https://github.com/jeyofdev/devchallenges--my-team-page"
   },
   "author": "jeyofdev <jgregoire.pro@gmail.com>",
   "license": "ISC",
   "keywords": [
-    "webpack",
-    "webpack 5"
+    "html",
+    "css",
+    "responsive"
   ],
   "bugs": {
-    "url": "https://github.com/jeyofdev/webpack-boilerplate-2021/issues"
+    "url": "https://github.com/jeyofdev/devchallenges--my-team-page/issues"
   },
-  "homepage": "https://github.com/jeyofdev/webpack-boilerplate-2021#readme",
+  "homepage": "https://github.com/jeyofdev/devchallenges--my-team-page#readme",
   "engines": {
     "node": "12.x"
   },
