@@ -52,6 +52,18 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 
+#### Don't forget to generate the assets :
+
+in dev mode:
+```bash
+yarn start
+```
+In production mode:
+```bash
+yarn build
+```
+
+
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
